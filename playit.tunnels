@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "larger-reveals.gl.joinmc.link",
+          "assigned_srv": "larger-reveals.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "48409795-f4ca-46f5-9714-cd8154936f59",
+          "ip_hostname": "22.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 34817,
+          "port_start": 34816,
+          "region": "global",
+          "static_ip4": "147.185.221.22",
+          "tunnel_ip": "2602:fbaf:0:1::16"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-09-04T12:10:18.162926Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "fb944b1c-f307-4510-be33-3a5079225b20",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "1f3918e6-693d-42c5-b3f7-52d8bebaec8d",
+          "agent_name": "Ip TacoLand",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
